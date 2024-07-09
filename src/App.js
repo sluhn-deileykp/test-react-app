@@ -1,8 +1,12 @@
 import React from "react";
 import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
-  return <img className="logo" alt="logo" src="../public/logo512.png" />;
+  return;
+  <div className="cont">
+    <img src={logo} className="App-logo" alt="logo" />
+  </div>;
 }
 
 export default App;
