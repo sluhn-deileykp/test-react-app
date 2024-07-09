@@ -1,19 +1,33 @@
 .background {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgba(3, 117, 146, 0.2);
   display: flex;
   flex-direction: row;
-  height: 50px;
-  width: 100px;
+  height: fit-content;
+  width: 100%;
   padding: 10px;
-  gap: 10px;
+  gap: 20px;
+  padding-left: 50px;
 }
 
 .tab {
   background-color: rgba(0, 255, 255, 0);
   color: aqua;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  font-size: 2em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .tab:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   color: rgb(5, 238, 238);
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
 }
