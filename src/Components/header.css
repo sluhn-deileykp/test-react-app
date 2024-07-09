@@ -1,0 +1,19 @@
+.background {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.tab {
+  background-color: rgba(0, 255, 255, 0);
+  color: aqua;
+}
+
+.tab:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(5, 238, 238);
+}
