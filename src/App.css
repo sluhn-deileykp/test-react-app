@@ -1,7 +1,7 @@
-.logo {
+.App-logo {
   /* Additional styles for the image, if needed */
-  width: 200px; /* Adjust width and height as desired */
-  height: 200px;
+  width: 400px; /* Adjust width and height as desired */
+  height: 400px;
   animation: spin 3s linear infinite; /* Animation details */
 }
 
