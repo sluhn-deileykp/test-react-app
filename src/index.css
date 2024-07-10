@@ -4,3 +4,34 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  background-color: rgba(240, 248, 255, 0);
+  outline: none;
+  font-size: 15px;
+  box-shadow: 0 3px 10px rgba(3, 117, 146, 0.2);
+  width: 20%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: aqua;
+  height: 40px;
+  color: aqua;
+  text-align: center;
+}
+
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgb(5, 238, 238);
+}
+
+.temp {
+  color: aqua;
+  font-size: x-large;
+}
