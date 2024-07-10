@@ -20,10 +20,11 @@
   align-content: center;
   align-items: center;
   gap: 5px;
+  border-radius: 5px;
 }
 
 .tab:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   color: rgb(5, 238, 238);
 }
 
