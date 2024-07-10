@@ -10,7 +10,7 @@ function App() {
 
   async function findTemp() {
     let url =
-      "http://api.weatherapi.com/v1/current.json?key=" +
+      "https://api.weatherapi.com/v1/current.json?key=" +
       process.env.REACT_APP_WEATHER_API +
       "&q=" +
       location +
