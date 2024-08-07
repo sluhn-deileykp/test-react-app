@@ -7,6 +7,14 @@ import axios from "axios";
 function App() {
   const [location, setLocation] = useState(null);
   const [temp, setTemp] = useState(null);
+  const [data, setData] = useState("");
+
+  useEffect(() => {
+    (async function () {
+      const { text } = await (await fetch(`/api/message`)).json();
+      setData(text);
+    })();
+  });
 
   async function findTemp() {
     let url =
@@ -52,6 +60,7 @@ function App() {
           Find
         </button>
         <span className="temp">{temp}°F</span>
+        <span>message: {data}</span>
       </div>
     </>
   );
