@@ -60,7 +60,7 @@ function App() {
           Find
         </button>
         <span className="temp">{temp}°F</span>
-        <span>message: {data}</span>
+        <span className="temp">useEffect message: {data}</span>
       </div>
     </>
   );
